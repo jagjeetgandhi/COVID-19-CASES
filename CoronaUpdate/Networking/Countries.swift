@@ -1,0 +1,14 @@
+//
+//  Countries.swift
+//  CoronaUpdate
+//
+//  Created by jagjeet on 06/08/20.
+//  Copyright © 2020 jagjeet. All rights reserved.
+//
+
+import Foundation
+import SwiftUI
+class Countries: ObservableObject {
+    
+    @Published var countries = ["AFGHANISTAN","ALGERIA","ANGOLA","ARGENTINA","ARMENIA","AUSTRALIA","AUSTRIA","BAHAMAS","BANGLADESH","BELGIUM","BHUTAN","BOLIVIA","BOTSWANA","BRAZIL","CAMBODIA","CANADA","CHINA","COLOMBIA","CYPRUS","DENMARK","EGYPT","FIJI","FINLAND","FRANCE","GEORGIA","GERMANY","GHANA","GUATEMALA","HUNGARY","ICELAND","INDIA","IRAQ","IRAN","ISRAEL","ITALY","JAMAICA","JAPAN","JORDAN","KENYA","KUWAIT","LAOS","LATVIA","LIBYA","MALAYSIA","MALI","MALTA","MEXICO","MONGOLIA","MOROCCO","NEPAL","NETHERLANDS","NEW ZEALAND","NORWAY","OMAN","PAKISTAN","POLAND","ROMANIA","RUSSIA","SPAIN","USA","URUGUAY","ZIMBABWE"]
+}
